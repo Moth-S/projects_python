@@ -47,6 +47,6 @@ while agree:
             break
     print(secret_num)
     repeat_game=input('Do you want to play again? (y or n)')
-    if repeat_game=='n':
+    if repeat_game!='y':
         print('goodbye')
         break
